@@ -4,7 +4,7 @@ layout: home
 hero:
   name: VitePress
   text: 个人学习资料整理
-  tagline: 持续更新...
+  tagline: 持续更新....
   actions:
     - theme: brand
       text: Get Started
