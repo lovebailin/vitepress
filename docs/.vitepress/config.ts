@@ -12,6 +12,7 @@ export default defineConfigWithTheme({
   themeConfig: {
     siteTitle: 'VitePress',
     nav: [
+      { text: 'Sass', link: '/sass/' },
       { text: 'ES7-ES12', link: '/ecma/' },
       // {
       //   text: 'Dropdown Menu',
@@ -24,14 +25,14 @@ export default defineConfigWithTheme({
     ],
     outlineTitle: '目录',
 
-    sidebar: [
-      {
-        text: 'Guide',
-        // items: [
-        //   { text: 'Introduction', link: '/introduction' },
-        //   { text: 'Getting Started', link: '/getting-started' },
-        // ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Guide',
+    //     // items: [
+    //     //   { text: 'Introduction', link: '/introduction' },
+    //     //   { text: 'Getting Started', link: '/getting-started' },
+    //     // ],
+    //   },
+    // ],
   },
 })
