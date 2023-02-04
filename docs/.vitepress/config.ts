@@ -13,7 +13,10 @@ export default defineConfigWithTheme({
     siteTitle: 'VitePress',
     logo: '/vue.svg',
     nav: [
+      { text: 'Sass', link: '/sass/' },
       { text: 'ES7-ES12', link: '/ecma/' },
+      { text: 'html+css', link: '/htmlcss/index.md' },
+      { text: 'javaScript', link: '/htmlcss/javaScript.md' },
       // {
       //   text: 'Dropdown Menu',
       //   items: [
@@ -29,14 +32,14 @@ export default defineConfigWithTheme({
     },
     outlineTitle: '目录',
 
-    sidebar: [
-      {
-        text: 'Guide',
-        // items: [
-        //   { text: 'Introduction', link: '/introduction' },
-        //   { text: 'Getting Started', link: '/getting-started' },
-        // ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Guide',
+    //     // items: [
+    //     //   { text: 'Introduction', link: '/introduction' },
+    //     //   { text: 'Getting Started', link: '/getting-started' },
+    //     // ],
+    //   },
+    // ],
   },
 })
