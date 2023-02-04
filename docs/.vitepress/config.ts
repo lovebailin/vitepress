@@ -11,6 +11,7 @@ export default defineConfigWithTheme({
   },
   themeConfig: {
     siteTitle: 'VitePress',
+    logo: '/vue.svg',
     nav: [
       { text: 'ES7-ES12', link: '/ecma/' },
       // {
@@ -22,6 +23,10 @@ export default defineConfigWithTheme({
       //   ],
       // },
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Evan You',
+    },
     outlineTitle: '目录',
 
     sidebar: [
